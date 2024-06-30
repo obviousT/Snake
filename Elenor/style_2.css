@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+   background-color:black ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.container{
+    margin-top: 35vh;
+    border: 1.5px solid rgb(28, 241, 28);
+    width: 50vw;
+    height: 35vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(32, 239, 32);
+    color:rgb(32, 239, 32) ;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing:-0.2vmin ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vmin;
+    overflow: hidden;
+    overflow-y: auto;
+}
+#top{
+    margin-top: 195vmin;
+}
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    height: 6px; /* Height of the horizontal scrollbar */
+}
+
+
+::-webkit-scrollbar-track {
+    background: #000000; /* Color of the track */
+    border-radius: 10px;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2dc935; /* Color of the thumb */
+    border-radius: 5px;
+
+    border: 3px solid #78666600; /* Padding around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #44ff3d;
+     
+}
+
+* {
+    scrollbar-width: 1px; 
+   
+   
+}
